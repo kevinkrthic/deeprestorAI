@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+.env/
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated outputs
+*.npy
+*.png
+*.jpg
+*.jpeg
+*.log
+
+# Local checkpoints (keep only if needed)
+# If you want to commit weights, do not ignore .pth files.
+
+# Jupyter
+.ipynb_checkpoints/
